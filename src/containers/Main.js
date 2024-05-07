@@ -64,7 +64,7 @@ const Main = () => {
             <Twitter />
             <Podcast />
             <Profile />
-            <Footer />
+            
             <ScrollToTopButton />
           </>
         )}
@@ -74,3 +74,5 @@ const Main = () => {
 };
 
 export default Main;
+
+//there was <Footer />  between profile and scrolltotopbutton; if sth breaks try putting it back
