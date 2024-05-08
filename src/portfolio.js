@@ -149,7 +149,7 @@ const educationInfo = {
       desc: "Took courses primarily in the departments of Computer Science, Mathematics, and Psychology.",
       descBullets: [
         "Achieved a 4.0 GPA",
-        "Received the 2023 LURA/NSERC research award"
+        "Received the 2023 LURA/NSERC Research Award"
       ]
     },
     // {
@@ -194,10 +194,10 @@ const workExperiences = {
       company: "Riipen",
       companylogo: require("./assets/images/Riipen.jpg"),
       date: "March 2024 – Present",
-      desc: "Worked on a nascent project aiming to optimize and automate business management.",
+      desc: "Worked with a nascent company aiming to optimize and automate business management.",
       descBullets: [
         "Implemented front-end designs while working closely with UX/UI and backend teams",
-        "Used HTMX-Springboot-Figma stack"
+        "Worked with HTMX-Springboot-Figma-Jira stack using AWS Lambda on an Agile team "
       ]
     },
     {
@@ -205,7 +205,11 @@ const workExperiences = {
       company: "York University",
       companylogo: require("./assets/images/yorku.png"),
       date: "April 2023 – July 2023",
-      desc: "Published a research paper on optimization of future 6G communications in IEEE Transactions on Communications, one of the most prestigious telecommunications journals."
+      desc: "Published a research paper on optimization of future 6G communications in IEEE Transactions on Communications, one of the most prestigious telecommunications journals.",
+      descBullets: [
+        "Used PyTorch and MATLAB to run simulations and gather data to be used in write-ups, and LaTeX to write up journal articles",
+        "Conducted literature review on optimization of telecommunications systems in various contexts"
+      ]
     },
   ]
 };
