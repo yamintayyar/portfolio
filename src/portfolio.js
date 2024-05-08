@@ -261,6 +261,10 @@ const bigProjects = {
         {
           name: "Browser Extension Coming Soon!",
           url:""
+        },
+        {
+          name: "GitHub Repository",
+          url: "https://github.com/yamintayyar/vibecheck"
         }
       ]
     }
