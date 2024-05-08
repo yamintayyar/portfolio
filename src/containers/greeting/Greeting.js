@@ -41,7 +41,7 @@ export default function Greeting() {
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
                   <a
-                    href={"https://drive.google.com/file/d/17roXp1wn-gWuQgp74oy1NXT3HPA5F7Cc/view?usp=drive_link"} // used to be require("./resume.pdf")
+                    href={"https://drive.google.com/drive/folders/1B34VqbTnuQSxl_uYeVOJR0p_U_t0_8KX?usp=sharing"} // used to be require("./resume.pdf")
                     // MY ADDITIONS
                     target="_blank"
                     rel="noopener noreferrer"

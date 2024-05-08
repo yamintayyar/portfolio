@@ -65,11 +65,11 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
+      skillName: "HTML-5",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "CSS3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     // {
@@ -85,7 +85,7 @@ https://fontawesome.com/icons?d=gallery */
     //   fontAwesomeClassname: "fab fa-react"
     // },
     {
-      skillName: "nodejs",
+      skillName: "NodeJS",
       fontAwesomeClassname: "fab fa-node"
     },
     // {
@@ -97,19 +97,19 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "SQL",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
+      skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
+      skillName: "Firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     // {
@@ -142,8 +142,8 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Lassonde School of Engineering, York University",
-      logo: require("./assets/images/lassonde.jpg"),
+      schoolName: "York University",
+      logo: require("./assets/images/yorku.png"),
       subHeader: "Honours Bachelor in Computer Science",
       duration: "September 2020 - April 2026",
       desc: "Took courses primarily in the departments of Computer Science, Mathematics, and Psychology.",
@@ -202,8 +202,8 @@ const workExperiences = {
     },
     {
       role: "Research Assistant",
-      company: "Lassonde School of Engineering",
-      companylogo: require("./assets/images/lassonde.jpg"),
+      company: "York University",
+      companylogo: require("./assets/images/yorku.png"),
       date: "April 2023 – July 2023",
       desc: "Published a research paper on optimization of future 6G communications in IEEE Transactions on Communications, one of the most prestigious telecommunications journals."
     },
@@ -221,34 +221,47 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "Some things I've been working on:",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/isht_logo.png"),
+      projectName: "It Sucks Here, Too!",
+      projectDesc: "A humorous spin on social media platforms: a website wherein users can vent their frustrations with their country of residence and share them with the world.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Website Coming Soon!",
+          url: "", //when a URL is available, put it here
+        },
+        {
+          name: "GitHub Repository",
+          url: "https://github.com/yamintayyar/isht"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/backrooms_logo.png"),
+      projectName: "Backrooms",
+      projectDesc: "Backrooms brings a live conversation to every webpage, with a lightweight and easy to use interface in the form of a simple browser extension.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Browser Extension Coming Soon!",
+          url: ""
+        }
+      ]
+    },
+    {
+      projectName: "VibeCheck",
+      projectDesc: "A tool to help reduce people's susceptibility to inconspicuously negative content. VibeCheck uses Machine Learning to detect negative emotionality and topics in Youtube videos before a user has watched them.",
+      footerLink: [
+        {
+          name: "Browser Extension Coming Soon!",
+          url:""
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -378,7 +391,7 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact"),
   subtitle:
     "Let's get in touch!",
   number: "+1 (647) 979 9511",
